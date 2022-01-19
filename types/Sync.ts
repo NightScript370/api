@@ -1,4 +1,4 @@
-import type { Id } from "./_common"
+import type { Id } from "./_common.ts"
 
 export type UserSettings = {
     [key: string]: [ number, string ]
@@ -17,7 +17,7 @@ export interface ChannelUnread {
 }
 
 export interface WebPushSubscription {
-    endpoint: String,
-    p256dh: String,
-    auth: String,
+    endpoint: string,
+    p256dh: string,
+    auth: string,
 }

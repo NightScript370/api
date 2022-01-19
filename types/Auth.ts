@@ -1,4 +1,4 @@
-import type { Id } from "./_common";
+import type { Id } from "./_common.ts";
 
 export interface Account {
     /**

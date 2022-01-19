@@ -1,6 +1,6 @@
-import type { Attachment } from "./Autumn"
-import type { Id, Nonce } from "./_common"
-import type { JanuaryEmbed } from "./January"
+import type { Attachment } from "./Autumn.ts"
+import type { Id, Nonce } from "./_common.ts"
+import type { JanuaryEmbed } from "./January.ts"
 
 /**
  * Saved Messages channel has only one participant, the user who created it.

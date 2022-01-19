@@ -1,5 +1,5 @@
-import type { Attachment } from "./Autumn";
-import type { Id } from "./_common";
+import type { Attachment } from "./Autumn.ts";
+import type { Id } from "./_common.ts";
 
 export type ServerInvite = {
     type: 'Server'

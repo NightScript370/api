@@ -1,6 +1,6 @@
-import type { Attachment } from "./Autumn";
-import type { Username } from "./Users";
-import type { Id } from "./_common";
+import type { Attachment } from "./Autumn.ts";
+import type { Username } from "./Users.ts";
+import type { Id } from "./_common.ts";
 
 export interface Bot {
     /**
