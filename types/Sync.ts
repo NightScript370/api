@@ -1,4 +1,4 @@
-import type { Id } from "./_common.ts"
+import type { Id } from "./_common.ts";
 
 export type UserSettings = {
     [key: string]: [ number, string ]
